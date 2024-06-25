@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'MangoDdobak-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/MangoDdobak-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freesentation-9Black';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgreen;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+}
+
+#logo{
+    width: 250px;
+    height: 100px;
+    position:relative;
+    float: left;
+    left:0px;
+}
+
+#title{
+    font-family: 'MangoDdobak-B';
+    position:relative;
+    float:right;
+    top:50px;
+    right:500px;
+    font-size:20px;
+}
+
+img{ 
+    height:200px;
+    width:200px;
+    border-radius: 100%;
+}
+
+#logo img{
+    position:relative;
+    right:120px;
+    width:250px;
+    height:250px;
+    border-radius:0px;
+}
+
+#onion{
+    position:relative;
+    float:right;
+    right:100px;
+    top:100px;
+}
+
+#salary{
+    position:relative;
+    float:right;
+    right:200px;
+    top:200px;
+}
+
+#ban{
+    position:relative;
+    float:right;
+    right:300px;
+    top:50px;
+}
+
+#rice{
+    position:relative;
+    float:right;
+    right:100px;
+    top:400px;
+}
+
+#mush{
+    position:relative;
+    float:right;
+    right:-600px;
+    top:400px;
+}
+
+#pumkin{
+    position:relative;
+    float:right;
+    right:0px;
+    top:250px;
+}
